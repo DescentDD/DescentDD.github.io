@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何使用用zju3d打印机</title>
+      <link href="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
+      <url>/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/</url>
+      
+        <content type="html"><![CDATA[<p>因为某些原因白嫖到了zju的3d打印机</p><p>four酱是不是超级羡慕</p><h1 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h1><p>我不会。</p><h1 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h1><p>zju的打印机有个好处，就是它能给你切片，你只需要准备stl模型文件，到时候再在那里调整大小和切片就够了。</p><h1 id="开机"><a href="#开机" class="headerlink" title="开机"></a>开机</h1><p>给打印机和电脑开机，把连好打印材料的打印机连上电脑。</p><p>然后打开zju3d什么的，反正就是电脑里最显眼的那个软件。点击左上角的连接按钮。</p><p>然后转到手动控制，点击下方房子图标，看看打印机有没有反应。如果有反应，那就是连上了。</p><p>如果没有连上，那在菜单栏的打印机设置里面修改一下端口，com1或者com3端口什么的。</p><p>然后手动操作，预热一下热床和喷口，达到需要的温度先。</p><h1 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h1><p>前面提到zju这个打印机可以联机切片打印。虽然说这样很不稳定，电脑一炸打印机跟着炸，但是可以在线切片。<br>先把所需要打印的stl模型文件从文件夹拖到这个软件的框框里。<br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/3.jpg" alt="图片"><br>然后如图，可以在右上角的按钮里对这个模型进行一个编辑，比如等比例放缩或者旋转。<br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/4.jpg" alt="图片"><br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/5.jpg" alt="图片"><br>然后就可以切片。结合的三种类型就是说有无底座的一块板板。</p><ul><li>比如说你要打一个手办，那她接触地面的面积就一条腿，站都站不稳，那肯定就得有个底座来支撑着，稳定她的重心，那就得是个brim。</li><li>但是你如果打一个金字塔那样的零件，跟地面覆盖面积不大的，那没必要有底座了，而且到时候切除也不方便。所以就选个无。<br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/6.jpg" alt="图片"></li></ul><p>支撑类型指的是支撑那种悬空的部分的一些支架，它们通常是用易破坏的结构打印出来的，在打印完毕后可以轻易去除。</p><blockquote><p>从打印机的原理讲起，在打印材料喷出来的时候它是液态，留在平面上迅速凝结。但是在悬空或者斜面上显然无法凝结成我们需要的固态形状。所以说我们需要临时的支撑材料，让那些悬空的部分能够在他们应该在的地方凝固。</p></blockquote><p>支撑类型有两种，接触热床和各处。</p><ul><li>接触热床就是让模型悬空的部分接触热床，也就是从地面打出一个支架让它能立住，但是仅此而已，在它影子投不到地面的地方就没有了。就像多个桥墩的大桥。比如说那个斜出去的零件，斜出去的部分就可以从热床上面打一个支架上去来让它稳定。</li><li>各处就是让模型各处悬空的部分都能够接触到它投影的下面。就像这图里的圆洞，洞的最上面是悬空的，然后在洞的最下面打一个支架上去撑住这个上面，直到它凝固后再手动破坏掉。<br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/1.jpg" alt="图片"></li></ul><h1 id="打"><a href="#打" class="headerlink" title="打"></a>打</h1><p>按一下打印，然后就可以睡大觉了。<br>（并不是）</p><p>仔细观察看它打印怎么样，打坏了重新打或者看看是不是打印机的质量问题，有问题找老师。<br>啦啦啦。<br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/7.jpg" alt="图片"><br><img src="/2023/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8zju3d%E6%89%93%E5%8D%B0%E6%9C%BA/2.jpg" alt="图片"></p><h1 id="奈奈滴为什么没有图片！！！！"><a href="#奈奈滴为什么没有图片！！！！" class="headerlink" title="奈奈滴为什么没有图片！！！！"></a>奈奈滴为什么没有图片！！！！</h1><h1 id="奈奈滴不早说图片路径直接引用就可以了"><a href="#奈奈滴不早说图片路径直接引用就可以了" class="headerlink" title="奈奈滴不早说图片路径直接引用就可以了"></a>奈奈滴不早说图片路径直接引用就可以了</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美咲G_4000模型训练成功</title>
+      <link href="/2023/02/05/%E7%BE%8E%E5%92%B2G-4000%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%88%90%E5%8A%9F/"/>
+      <url>/2023/02/05/%E7%BE%8E%E5%92%B2G-4000%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%88%90%E5%8A%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><h2 id="如题，我租了autodl的gpu，然后训练了AI美咲的模型，租金大概用了11rmb经验：-建议用rtx3090，至少也得2080ti以上。-训练到G-2000就差不多了，再多就是白费钱。-48k的镜像autodl没有提供，所以32k的这个镜像下训练的东西是不能放到b站上的那些推理变声器上面使用的。-如果处理音乐记得把人声提取分离，否则你会看到AI阿卡贝拉。-把这个想法告诉了four酱：训练到不同迭代的ai唱出的歌声的对比，做成视频放在b站上。我不会也不想做视频。-four酱炼出来东西了要告诉我哟。"><a href="#如题，我租了autodl的gpu，然后训练了AI美咲的模型，租金大概用了11rmb经验：-建议用rtx3090，至少也得2080ti以上。-训练到G-2000就差不多了，再多就是白费钱。-48k的镜像autodl没有提供，所以32k的这个镜像下训练的东西是不能放到b站上的那些推理变声器上面使用的。-如果处理音乐记得把人声提取分离，否则你会看到AI阿卡贝拉。-把这个想法告诉了four酱：训练到不同迭代的ai唱出的歌声的对比，做成视频放在b站上。我不会也不想做视频。-four酱炼出来东西了要告诉我哟。" class="headerlink" title="如题，我租了autodl的gpu，然后训练了AI美咲的模型，租金大概用了11rmb经验：- 建议用rtx3090，至少也得2080ti以上。- 训练到G_2000就差不多了，再多就是白费钱。- 48k的镜像autodl没有提供，所以32k的这个镜像下训练的东西是不能放到b站上的那些推理变声器上面使用的。- 如果处理音乐记得把人声提取分离，否则你会看到AI阿卡贝拉。- 把这个想法告诉了four酱：训练到不同迭代的ai唱出的歌声的对比，做成视频放在b站上。我不会也不想做视频。- four酱炼出来东西了要告诉我哟。"></a>如题，我租了autodl的gpu，然后训练了AI美咲的模型，租金大概用了11rmb<br>经验：<br>- 建议用rtx3090，至少也得2080ti以上。<br>- 训练到G_2000就差不多了，再多就是白费钱。<br>- 48k的镜像autodl没有提供，所以32k的这个镜像下训练的东西是不能放到b站上的那些推理变声器上面使用的。<br>- 如果处理音乐记得把人声提取分离，否则你会看到AI阿卡贝拉。<br>- 把这个想法告诉了four酱：训练到不同迭代的ai唱出的歌声的对比，做成视频放在b站上。我不会也不想做视频。<br>- four酱炼出来东西了要告诉我哟。</h2></blockquote><h1 id="啦啦啦"><a href="#啦啦啦" class="headerlink" title="啦啦啦"></a>啦啦啦</h1><p>我该怎么把文件或者音乐放在hexo上面？</p><p>不管了，反正只是记录。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 得得搞vits </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>有关soVITS的在谷歌colab上炼丹的事情。</title>
+      <link href="/2023/02/02/%E6%9C%89%E5%85%B3soVITS%E7%9A%84%E5%9C%A8%E8%B0%B7%E6%AD%8Ccolab%E4%B8%8A%E7%82%BC%E4%B8%B9%E7%9A%84%E4%BA%8B%E6%83%85%E3%80%82/"/>
+      <url>/2023/02/02/%E6%9C%89%E5%85%B3soVITS%E7%9A%84%E5%9C%A8%E8%B0%B7%E6%AD%8Ccolab%E4%B8%8A%E7%82%BC%E4%B8%B9%E7%9A%84%E4%BA%8B%E6%83%85%E3%80%82/</url>
+      
+        <content type="html"><![CDATA[<h3 id="写给笨蛋four酱"><a href="#写给笨蛋four酱" class="headerlink" title="写给笨蛋four酱"></a>写给笨蛋four酱</h3><h3 id="要翻墙"><a href="#要翻墙" class="headerlink" title="要翻墙"></a>要翻墙</h3><h1 id="神么是soVITS吖？"><a href="#神么是soVITS吖？" class="headerlink" title="神么是soVITS吖？"></a>神么是soVITS吖？</h1><p>自己百度。</p><h1 id="怎么搞soVITS吖？"><a href="#怎么搞soVITS吖？" class="headerlink" title="怎么搞soVITS吖？"></a>怎么搞soVITS吖？</h1><p>有两种办法</p><ul><li>本地的</li><li>利用谷歌colab提供的gpu</li></ul><h2 id="本地的方法"><a href="#本地的方法" class="headerlink" title="本地的方法"></a>本地的方法</h2><p>我不会。</p><h2 id="利用谷歌colab"><a href="#利用谷歌colab" class="headerlink" title="利用谷歌colab"></a>利用谷歌colab</h2><h3 id="谷歌colab是什么？"><a href="#谷歌colab是什么？" class="headerlink" title="谷歌colab是什么？"></a>谷歌colab是什么？</h3><p>谷歌colab是万恶的美帝国主义谷歌公司为了祸害我们青少年提供的免费的gpu使用。</p><p>但是作为社会主义接班人我秉持着打倒邪恶的美帝国主义的愿望，于是疯狂白嫖这个gpu的算力，用来炼丹。</p><p><a href="https://colab.research.google.com/drive/1_-gh9i-wCPNlRZw6pYF-9UufetcVrGBX?usp=sharing#scrollTo=0gQcIZ8RsOkn">https://colab.research.google.com/drive/1_-gh9i-wCPNlRZw6pYF-9UufetcVrGBX?usp=sharing#scrollTo=0gQcIZ8RsOkn</a></p><p>芝士soVITS在colab上面配布的一件生成的py文档。</p><p>比起用py敲代码跑，这种文档带的按钮更方便，跟scratch一样，你只要一个一个往下面按就好啦</p><h3 id="如何使用？"><a href="#如何使用？" class="headerlink" title="如何使用？"></a>如何使用？</h3><p>首先准备原材料。</p><p>我用的狗妈的周年语音包，mp3格式</p><p>要转化为wav格式并且不建议超过20秒。</p><p>这些wav文件编号，放到一个文件夹，压缩zip打包，上传到谷歌云盘里。</p><p>然后按照colab上面的指示一步一步操作就好啦。</p><p>部分地方需要填入这个文件的相对地址，相对于谷歌云盘的根目录。</p><p>就是这样~</p><h2 id="牢骚"><a href="#牢骚" class="headerlink" title="牢骚"></a>牢骚</h2><p>我麻麻不让我炼丹跑这些ai，说影响学习<br>乐<br>不会往里面塞图片，就不塞了，反正也没人看。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 得得不务正业 得得搞vits </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日寄1.29</title>
+      <link href="/2023/01/29/%E6%97%A5%E5%AF%841-29/"/>
+      <url>/2023/01/29/%E6%97%A5%E5%AF%841-29/</url>
+      
+        <content type="html"><![CDATA[<h1 id="日寄"><a href="#日寄" class="headerlink" title="日寄"></a>日寄</h1><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>在推上看见个小药娘，14岁搞机场，直呼惊奇</p><p>然后又看见一些很神奇的同龄人，搞网络编程什么的</p><h3 id="于是"><a href="#于是" class="headerlink" title="于是"></a>于是</h3><p>在微软的Azure试图整个学生的免费账号，试图搭建私人机场</p><p>以及使用Azure提供的云服务器进行其他的事情，还没想好</p><h3 id="但是"><a href="#但是" class="headerlink" title="但是"></a>但是</h3><p>Azure不让我注册</p><p><img src="/./img/230127.jpg" alt="图片"></p><p>就像这样</p><p>然后我超级超级愤怒！！所以我发了邮件去问他们！！</p><p>就是这样。</p><h2 id="还有一个事情"><a href="#还有一个事情" class="headerlink" title="还有一个事情"></a>还有一个事情</h2><p>想给自己这个玩意的评论区加个邮件</p><p>但是搞不起来呜呜呜</p><p>也不好意思再问night1918，找github上面翻翻</p><p>SMTP_PASS 需要设置为“qq设置通过手机获取的验证码”</p><p>这个怎么找呢？在邮箱，设置，然后点开启stmp服务，然后验证身份后就会给你一串奇奇怪怪数字，就是啦</p><p>没搞起来，摆烂了</p><h2 id="js小坏蛋你什么时候教教我写md哇可恶"><a href="#js小坏蛋你什么时候教教我写md哇可恶" class="headerlink" title="js小坏蛋你什么时候教教我写md哇可恶"></a>js小坏蛋你什么时候教教我写md哇可恶</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 得得梦里乱写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DescentDD00</title>
+      <link href="/2023/01/26/descentdd00/"/>
+      <url>/2023/01/26/descentdd00/</url>
+      
+        <content type="html"><![CDATA[<ul><li>0、不是很理解这个东西</li><li>2、春节好麻烦事情好多</li><li>3、想学的md，py还有这个网络的玩意</li><li>5、vercel好像部署不上，姑且github用用。。</li></ul><h2 id="这是大号字体吗？"><a href="#这是大号字体吗？" class="headerlink" title="这是大号字体吗？"></a>这是大号字体吗？</h2><h1 id="这是更大号字体"><a href="#这是更大号字体" class="headerlink" title="这是更大号字体"></a>这是更大号字体</h1><h4 id="好了我差不多会md了。。？"><a href="#好了我差不多会md了。。？" class="headerlink" title="好了我差不多会md了。。？"></a>好了我差不多会md了。。？</h4><p>为什么这个名字是红色的？哪里出错了？</p><p>哦空格好重要</p><h3 id="哈哈"><a href="#哈哈" class="headerlink" title="哈哈"></a>哈哈</h3><h3 id="评论区寄了"><a href="#评论区寄了" class="headerlink" title="评论区寄了"></a>评论区寄了</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 得得梦里乱写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MyNewPost</title>
+      <link href="/2023/01/23/MyNewPost/"/>
+      <url>/2023/01/23/MyNewPost/</url>
+      
+        <content type="html"><![CDATA[<p>爷是不是超级可爱<br>啦啦啦</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test_my_site</title>
+      <link href="/2023/01/23/test-my-site/"/>
+      <url>/2023/01/23/test-my-site/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/01/23/hello-world/"/>
+      <url>/2023/01/23/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
